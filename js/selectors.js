@@ -7,6 +7,7 @@ function paragraphSelector(){
 function lastImageSelector(){
   return $('img:last');
 }
+//Write a function ninjaBabySelector that does not accept any parameters. The function should use an ID selector to return the ninja baby image.
 function ninjaBabySelector(){
    return $("img[id='baby-ninja']")
 }
